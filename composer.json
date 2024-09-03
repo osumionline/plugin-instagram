@@ -1,0 +1,15 @@
+{
+  "name": "osumionline/plugin-instagram",
+  "description": "Plugin OImage para Osumi Framework",
+  "version": "2.0.0",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Osumi\\OsumiFramework\\Plugins\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2"
+  }
+}
