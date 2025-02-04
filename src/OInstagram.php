@@ -214,9 +214,9 @@ class OInstagram {
 	 *
 	 * @param array $fields Fields asked to Instagram on each media element
 	 *
-	 * @param int $limit
+	 * @param int | null $limit
 	 */
-	public function getMeMedia(array $fields = [], int $limit = null): ?array {
+	public function getMeMedia(array $fields = [], int | null $limit = null): ?array {
 		if (count($fields)==0) {
 			$fields = ['caption', 'id', 'media_type', 'media_url', 'permalink', 'thumbnail_url', 'timestamp'];
 		}
